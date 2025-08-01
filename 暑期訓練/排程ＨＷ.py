@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+#this is for test
 # === 讀取機台加工時間資料（20 jobs × 5 machines） ===
 List = pd.read_excel(r"/Users/ericyang/Desktop/Python File/排程/排程最佳化.xlsx",
                      sheet_name="20j5m", usecols=range(1, 6))  # 讀取加工時間矩陣
